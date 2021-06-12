@@ -1,0 +1,92 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+body{
+    background-color: #DDD;
+}
+.App{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.c-player{
+    display: block;
+    background-color: #009688;
+    padding: 50px;
+    border-radius: 16px;
+    box-shadow: inset -6px -6px 12px rgba(0, 0, 0, 0.8) , inset 6px 6px 12px rgba(255,255,255,0.4);
+}
+
+.c-player > h4{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+.c-player > p{
+    color: #eee;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+}
+.c-player-details .img-details{
+    position: relative;
+    width: fit-content;
+    margin: 50px auto;
+}
+.c-player-details .img-details img{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 250px;
+    border-radius: 50%;
+    height: 250px;
+}
+
+.c-player-details .details-title{
+    color: #eee;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 28px;
+}
+
+
+.c-player-details .details-artist{
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.c-player-contorls{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.c-player-contorls .play-btn{
+    display: flex;
+    margin:0 30px;
+    padding: 20px;
+    border-radius: 50%;
+    border:none;
+    outline: none;
+    color:#fff;
+    background-color:#009688 ;
+    font-size: 24px;
+    cursor: pointer;
+}
+.c-player-contorls .skip-btn{
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #888;
+    font-size: 18px;
+}
