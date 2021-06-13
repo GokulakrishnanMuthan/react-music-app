@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Solo",
+    "artist": "Gls",
+    "img_src": "./images/image1.jpeg",
+    "src": "./music/Aigiri-Nandini.mp3"
+  },
+  {
+    "title": "AnbeSivam",
+    "artist": "Gls",
+    "img_src": "./images/image2.jpg",
+    "src": "./music/Anbe-Sivam.mp3"
+  },
+  {
+    "title": "Uriyadi",
+    "artist": "Gls",
+    "img_src": "./images/image3.jpg",
+    "src": "./music/Agni-Kunjondru.mp3"
+  },
+  {
+    "title": "Ayan",
+    "artist": "Gls",
+    "img_src": "./images/image4.jpg",
+    "src": "./music/OhSupernova.mp3"
+  },
+  {
+    "title": "Billa2",
+    "artist": "Gls",
+    "img_src": "./images/image5.jpg",
+    "src": "./music/Unakkulle-Mirugam.mp3"
+  },
+  {
+    "title": "CharlieChaplin",
+    "artist": "Gls",
+    "img_src": "./images/image6.jpg",
+    "src": "./music/Charlie-Chaplin.mp3"
+  }
+]
